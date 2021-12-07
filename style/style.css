@@ -2,8 +2,8 @@
 .cap{
     height: 100px;           
     background-color: #00AF64;         
-    margin: auto;
-
+    margin-bottom: 15px;
+    box-sizing: border-box;
     
 }
 
@@ -11,10 +11,13 @@
 
 html{
 	margin: 0;
+    font-size: 16px
 }
 
 body{
 	margin: 0;
+    font-size: 16px
+    
 }
 .title{
     font-family: Verdana, "Helvetica CY", "Nimbus Sans L", sans-serif;
@@ -25,14 +28,83 @@ body{
 
 }
 img{
-    width: 1000px;
-    height: 600px;
-  
-    margin-bottom: 5px;
-    margin-top: 5px;
+    width: 960px;
+    height: 580px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    max-width: 100%; 
+    height: auto
 }
+/*.all{
+    font-family: Verdana, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    vertical-align: middle;
+    text-align: justify;
+    width:0;
+    min-width:100%;
+    box-sizing: border-box;
+    padding-left: 200px;
+    padding-right: 200px;
+    min-width: 960px;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 0;
+   
+}
+*/
+/*.list-content{
+    font-family: Verdana, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    vertical-align: middle;
+    text-align: justify;
+    width:0;
+    min-width:100%;
+    box-sizing: border-box;
+    padding-left: 200px;
+    padding-right: 200px;
+    min-width: 960px;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 0;
+}
+*/
 .all{
     font-family: Verdana, "Helvetica CY", "Nimbus Sans L", sans-serif;
-    padding-left: 180px;
-    padding-right: 200px;
+    background: #fff;
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+p{
+    text-align: justify;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+h2, h3, h4 {
+    padding-left: 120px;
+    padding-right: 120px;
+    
+}
+.list{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.list-counteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.list-counteiner-text{
+    font-family: Verdana, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.list-counteiner-style{
+    list-style:none;
+}
+.list-counteiner-anchor{
+    text-decoration:none;
+    color: #228B22;
 }
